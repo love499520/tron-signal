@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tron Signal Monitor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- 样式 -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- 顶部 -->
+    <div class="panel">
+      <h1>Tron 区块监听信号系统</h1>
+      <div class="panel-row">
+        <div class="panel-col">
+          <div class="label">系统状态</div>
+          <div id="sys-status" class="value status-bad">未连接</div>
+        </div>
+        <div class="panel-col">
+          <div class="label">最新区块高度</div>
+          <div id="last-block" class="value">-</div>
+        </div>
+        <div class="panel-col">
+          <div class="label">最新区块时间（北京时间）</div>
+          <div id="last-time" class="value">-</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- API Key 配置 -->
+    <div class="panel">
+      <h2>TronGrid API Key 配置</h2>
+
+      <div class="panel-row">
+        <div class="panel-col">
+  
