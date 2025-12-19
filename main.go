@@ -1472,8 +1472,7 @@ func withSecurityHeaders(next http.Handler) http.Handler {
 // ---------- unused but ready helpers ----------
 
 // If later you want to guard some external endpoints with IP/token, wrap with externalGuard(handler)
-func _ = externalGuard
+var _ = externalGuard
 
 // Example graceful shutdown if you want:
-// _ = context.Background
-func _ = context.Background
+var _ = context.Background
